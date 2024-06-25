@@ -15,7 +15,7 @@ The consumer finance company facilitating personal loans, business loans, and fi
 
 The company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default.  The company can utilise this knowledge for its portfolio and risk assessment. 
 
-We need to identify these risky loan applicants, then such loans can be reduced thereby cutting down the amount of credit loss. Identification of such applicants using EDA is the aim of this case study.![image](https://github.com/santosh-gyan/LendingClubCaseStudy/assets/53139403/9b5760c7-a95d-4a6d-84f7-9a4044fcc8ae)
+We need to identify these risky loan applicants, then such loans can be reduced thereby cutting down the amount of credit loss. Identification of such applicants using EDA is the aim of this case study.
 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
