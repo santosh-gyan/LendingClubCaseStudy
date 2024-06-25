@@ -65,6 +65,9 @@ Analysis :-
 
 
 ## Technologies Used
+Jupyter notebook
+Python 3
+Library:-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
