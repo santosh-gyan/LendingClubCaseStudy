@@ -1,5 +1,5 @@
 # Project Name
-> Outline a brief description of your project.
+Lending Club case study
 
 
 ## Table of Contents
@@ -11,38 +11,72 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+The consumer finance company facilitating personal loans, business loans, and financing of medical procedures. Lending loans to ‘risky’ applicants is the largest source of financial loss (called credit loss). Credit loss is the amount of money lost by the lender when the borrower refuses to pay or runs away with the money owed. In other words, borrowers who default cause the largest amount of loss to the lenders.
+
+The company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default.  The company can utilise this knowledge for its portfolio and risk assessment. 
+
+We need to identify these risky loan applicants, then such loans can be reduced thereby cutting down the amount of credit loss. Identification of such applicants using EDA is the aim of this case study.![image](https://github.com/santosh-gyan/LendingClubCaseStudy/assets/53139403/9b5760c7-a95d-4a6d-84f7-9a4044fcc8ae)
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+Result:- Univariate Analysis
+Created below graph:-
+	Average distribution of loans across category and experience level
+	Distribution of loans across category and dti
+	Distribution of loans across category and loan to annual income
+	Distribution of loans across category and Grades
+
+Result:- bivariate Analysis
+Created below graph:-
+	Distribution of Verified and Not verified Source Income on DTI
+	Distribution of Verified and Not verified Source Income on Loan to Annual Income
+	Distribution of Verified and not verified Source Income on Experience Level
+	Distribution of Verified and not verified Source Income on Grades
+	Distribution of Rented, Mortgaged, Owned   asset ownership on DTI
+	Distribution of Rented, Mortgaged, Owned   asset ownership on loan to annual income ratio
+	Distribution of Rented, Mortgaged, Owned   asset ownership on experience level.
+	Distribution of Rented, Mortgaged, Owned   asset ownership on grades
+
+
+Analysis :-
+    people with less experience have high chance of default.
+    People lying in medium dti range have high chances of default
+    People who have high loan to annual income ratio are at high risk of defaulting.
+    Grades B,Cand D are at high probablity of defaulting.
+    average default rate across all categories is 14.4%.
+    The number of loan applicants is increasing every year, 2011 being the highest. 
+    People with 1 year and 10 year experience are taking loans more frequently. 
+    Top 6 loan category:- debt consolidation credit card other home improvement major purchase small business
+    People with less experience have high chance of default.
+    People lying in medium dti range have high chances of default
+    People who have high loan to annual income ratio are at high risk of defaulting.
+    Grades B, C and D are at high probability of defaulting.
+    For verified source of income. High loan to income ratio has highest probability of defaulting.
+    For verified and not verified source of income. The Junior experience level are more towards defaulting.
+    For rented and house owner. More the loan to income ratio, more the chances of defaulting.
+
+  
+
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import datetime
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by santosh.assisi@gamil.com - feel free to contact me!
 
 
 <!-- Optional -->
